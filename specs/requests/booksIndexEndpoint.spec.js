@@ -37,6 +37,6 @@ describe('GET /books', () => {
       ] 
     }
     expect(res.body)
-    .to.equal(expectedResponse)
+    .to.eql(expectedResponse)
   });
 });
