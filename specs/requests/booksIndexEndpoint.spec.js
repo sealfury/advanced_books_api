@@ -28,11 +28,11 @@ describe('GET /books', () => {
       books: [
         {
           title: 'Fun With Node', 
-          author: 'T. Ochman'
+          author: {name: 'Ariana Grande'}
         },
         {
           title: 'Fun With Node Pt II', 
-          author: 'T. Ochman'
+          author: {name: 'Ariana Grande'}
         }
       ] 
     }
